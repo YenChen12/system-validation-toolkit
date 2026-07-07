@@ -6,7 +6,7 @@
 #! /bin/bash
 
 # Custom format
-# export PS1='yenchen12@\h: \w \$ '
+# export PS1='Guest@\h: \w \$ '
 
 # Custom format with color and bold
-export PS1='\[\033[1;32m\]yenchen12@\h\[\033[00m\]: \[\033[1;34m\]\w\[\033[00m\] \$ '
+export PS1='\[\033[1;32m\]Guest@\h\[\033[00m\]: \[\033[1;34m\]\w\[\033[00m\] \$ '
