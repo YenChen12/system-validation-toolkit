@@ -3,6 +3,7 @@
 - [**ssh_passwordless**](https://github.com/YenChen12/system-validation-toolkit/tree/main/ssh_passwordless): Adding public key to the server for passwordless future logins.
 - [**vscode_setup**](https://github.com/YenChen12/system-validation-toolkit/tree/main/vscode_setup): VSCode settings and extensions.
 - [**bashrc_custom**](https://github.com/YenChen12/system-validation-toolkit/tree/main/bashrc_custom): Optimized for workflow efficiency, creating a highly comfortable workspace.
+- [**git_guide**](https://github.com/YenChen12/system-validation-toolkit/tree/main/git_guide): A reference guide that organizes commonly used git commands.
 
 
 ## 🎯 Remote Environment Initialization
