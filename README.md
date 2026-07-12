@@ -4,6 +4,7 @@
 - [**vscode_setup**](https://github.com/YenChen12/system-validation-toolkit/tree/main/vscode_setup): VSCode settings and extensions.
 - [**bashrc_custom**](https://github.com/YenChen12/system-validation-toolkit/tree/main/bashrc_custom): Optimized for workflow efficiency, creating a highly comfortable workspace.
 - [**git_guide**](https://github.com/YenChen12/system-validation-toolkit/tree/main/git_guide): A reference guide that organizes commonly used git commands.
+- [**vim_notes**](https://github.com/YenChen12/system-validation-toolkit/tree/main/vim_notes): Vim workflows for log analysis, script editing, and multi-file comparison.
 
 
 ## 🎯 Remote Environment Initialization
