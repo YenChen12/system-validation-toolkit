@@ -14,16 +14,12 @@
     tmux source-file ~/.tmux.conf
     ```
 2. Verify tmux is active and confirm mouse stability.
-    <div align="left">
+    - Tmux Preview:
+    ![Terminal Preview](./assets/tmux_default.jpg)
 
-    [Terminal Preview](./assets/tmux_default.jpg)
-
-    </div>
+    - Tmux Workflow Demo:  
+    ![Tmux Workflow Demo](assets/Tmux_Ubuntu22.04.gif)
     
-    <video width="100%" controls>
-      <source src="./assets/Tmux_Ubuntu22.04.mp4" type="video/mp4">
-      Browser does not support this video.
-    </video>
-    ---  
+---  
 **Author:** @[YenChen12](https://github.com/YenChen12)  
 **Created:** 2026/07/13
