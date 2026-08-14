@@ -7,7 +7,7 @@
 - [**vim_notes**](https://github.com/YenChen12/system-validation-toolkit/tree/main/vim_notes): Vim workflows for log analysis, script editing, and multi-file comparison.
 - [**tmux_notes**](https://github.com/YenChen12/system-validation-toolkit/tree/main/tmux_notes): Terminal workflow to keep validation tasks persistent across SSH sessions.  
 - [**troubleshooting**](https://github.com/YenChen12/system-validation-toolkit/tree/main/troubleshooting): Collect and document known technical issues.  
-- [**make_practice**](https://github.com/YenChen12/system-validation-toolkit/tree/main/make_practice): Exploring Makefile for organizing linux commands and automation workflows  
+- [**make_practice**](https://github.com/YenChen12/system-validation-toolkit/tree/main/make_practice): Exploring Makefile for organizing linux commands and automation workflows.  
 
 ## 🎯 Remote Environment Initialization
 #### Before deploying any toolkit modules, ensure your remote environment matches the specifications below and has been successfully initialized.
