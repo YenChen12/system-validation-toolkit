@@ -6,8 +6,6 @@
 *.deb
 *.zip
 *.tgz
-*.log
-*.log.*
 *.sig
 
 pkg/

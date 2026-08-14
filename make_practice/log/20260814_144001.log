@@ -1,0 +1,145 @@
+make[1]: Entering directory '/home/yen/make-practice'
+---------------
+>  lspci
+---------------
+[Output]
+00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+00:01.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+00:02.0 VGA compatible controller: VMware SVGA II Adapter
+00:03.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02)
+00:04.0 System peripheral: InnoTek Systemberatung GmbH VirtualBox Guest Service
+00:05.0 Multimedia audio controller: Intel Corporation 82801AA AC'97 Audio Controller (rev 01)
+00:06.0 USB controller: Apple Inc. KeyLargo/Intrepid USB
+00:07.0 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
+00:08.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02)
+00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)
+
+---------------
+>  lsblk
+---------------
+[Output]
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0 310.3M  1 loop /snap/code/164
+loop1    7:1    0     4K  1 loop /snap/bare/5
+loop2    7:2    0 450.6M  1 loop /snap/code/249
+loop3    7:3    0  63.9M  1 loop /snap/core20/2318
+loop4    7:4    0  63.8M  1 loop /snap/core20/2866
+loop5    7:5    0  74.2M  1 loop /snap/core22/1380
+loop6    7:6    0    74M  1 loop /snap/core22/2411
+loop7    7:7    0  66.8M  1 loop /snap/core24/1643
+loop8    7:8    0 268.2M  1 loop /snap/firefox/4033
+loop9    7:9    0 252.7M  1 loop /snap/firefox/8585
+loop10   7:10   0   497M  1 loop /snap/gnome-42-2204/141
+loop11   7:11   0 614.5M  1 loop /snap/gnome-46-2404/164
+loop12   7:12   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop13   7:13   0   395M  1 loop /snap/mesa-2404/1165
+loop14   7:14   0  39.1M  1 loop /snap/snapd/21184
+loop15   7:15   0  12.3M  1 loop /snap/snap-store/959
+loop16   7:16   0  38.8M  1 loop /snap/snapd/21759
+loop17   7:17   0   452K  1 loop /snap/snapd-desktop-integration/83
+loop18   7:18   0   828K  1 loop /snap/snapd-desktop-integration/387
+sda      8:0    0    40G  0 disk 
+├─sda1   8:1    0     1M  0 part 
+├─sda2   8:2    0   513M  0 part /boot/efi
+└─sda3   8:3    0  39.5G  0 part /var/snap/firefox/common/host-hunspell
+                                 /
+sr0     11:0    1  1024M  1 rom  
+
+---------------
+>  lsmem
+---------------
+[Output]
+RANGE                                  SIZE  STATE REMOVABLE BLOCK
+0x0000000000000000-0x00000000dfffffff  3.5G online       yes  0-27
+0x0000000100000000-0x00000002efffffff  7.8G online       yes 32-93
+
+Memory block size:       128M
+Total online memory:    11.3G
+Total offline memory:      0B
+
+---------------
+>  lscpu
+---------------
+[Output]
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+CPU family:                              6
+Model:                                   158
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                9
+BogoMIPS:                                6815.99
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 movbe popcnt aes rdrand hypervisor lahf_lm abm 3dnowprefetch pti fsgsbase bmi1 bmi2 invpcid rdseed clflushopt arat md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               128 KiB (4 instances)
+L1i cache:                               128 KiB (4 instances)
+L2 cache:                                1 MiB (4 instances)
+L3 cache:                                24 MiB (4 instances)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                      Mitigation; PTE Inversion
+Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Vulnerable
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+Vulnerability Srbds:                     Unknown: Dependent on hypervisor status
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+
+---------------
+>  ip addr
+---------------
+[Output]
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.x.x.x/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether XX:xx:xx:xx:xx:xx brd ff:ff:ff:ff:ff:ff
+    inet 10.X.X.XX/24 brd 10.X.X.XXX scope global dynamic noprefixroute enp0s3
+       valid_lft 69879sec preferred_lft 69879sec
+    inet6 fe80::XXXX:XXXX:XXXX:XXXX/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether XX:XX:XX:XX:XX:XX brd ff:ff:ff:ff:ff:ff
+    inet 192.168.XXX.XXX/24 brd 192.168.XXX.XXX scope global dynamic noprefixroute enp0s8
+       valid_lft 588279sec preferred_lft 588279sec
+    inet6 fe80::XXXX:XXXX:XXXX:XXXX/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+4: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
+    link/ether 52:XX:XX:XX:XX:XX brd ff:ff:ff:ff:ff:ff
+    inet 192.168.XXX.XXX/24 brd 192.168.XXX.XXX scope global virbr0
+       valid_lft forever preferred_lft forever
+
+---------------
+>  ip route
+---------------
+[Output]
+default via 10.X.X.X dev enp0s3 proto dhcp metric 100 
+default via 192.168.XXX.XXX dev enp0s8 proto dhcp metric 101 
+10.X.X.XX/24 dev enp0s3 proto kernel scope link src 10.x.x.xx metric 100 
+169.254.X.X/16 dev enp0s3 scope link metric 1000 
+192.168.XXX.XXX/24 dev enp0s8 proto kernel scope link src 192.168.XXX.XXX metric 101 
+192.168.XXX.XXX/24 dev virbr0 proto kernel scope link src 192.168.XXX.XXX linkdown 
+
+make[1]: Leaving directory '/home/yen/make-practice'
