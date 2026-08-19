@@ -1,0 +1,27 @@
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0 310.3M  1 loop /snap/code/164
+loop1    7:1    0     4K  1 loop /snap/bare/5
+loop2    7:2    0 450.6M  1 loop /snap/code/249
+loop3    7:3    0  63.9M  1 loop /snap/core20/2318
+loop4    7:4    0  63.8M  1 loop /snap/core20/2866
+loop5    7:5    0  74.2M  1 loop /snap/core22/1380
+loop6    7:6    0    74M  1 loop /snap/core22/2411
+loop7    7:7    0  66.8M  1 loop /snap/core24/1643
+loop8    7:8    0 268.2M  1 loop /snap/firefox/4033
+loop9    7:9    0 252.7M  1 loop /snap/firefox/8585
+loop10   7:10   0   497M  1 loop /snap/gnome-42-2204/141
+loop11   7:11   0 614.5M  1 loop /snap/gnome-46-2404/164
+loop12   7:12   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop13   7:13   0   395M  1 loop /snap/mesa-2404/1165
+loop14   7:14   0  39.1M  1 loop /snap/snapd/21184
+loop15   7:15   0  12.3M  1 loop /snap/snap-store/959
+loop16   7:16   0  38.8M  1 loop /snap/snapd/21759
+loop17   7:17   0   452K  1 loop /snap/snapd-desktop-integration/83
+loop18   7:18   0   828K  1 loop /snap/snapd-desktop-integration/387
+sda      8:0    0    40G  0 disk 
+├─sda1   8:1    0     1M  0 part 
+├─sda2   8:2    0   513M  0 part /boot/efi
+└─sda3   8:3    0  39.5G  0 part /var/snap/firefox/common/host-hunspell
+                                 /
+sr0     11:0    1  1024M  1 rom  
+
