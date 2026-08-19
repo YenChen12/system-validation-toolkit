@@ -14,6 +14,8 @@ shell_practice/
 ---
 ### Practice 1 - Split system log
 Continue the previous [`make_practice`](../make_practice/) and split the generated system log into individual command logs.
+The script uses `sed` to remove log noise and `awk` to split the log
+based on command sections.
 - Test script: [split_log.sh](scripts/split_log.sh)
 - Input log: [system_log.log](logs/system_log.log)
 - Output results: [system_log_20260819_154059](results/system_log_20260819_154059/)
