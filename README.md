@@ -8,6 +8,7 @@
 - [**tmux_notes**](https://github.com/YenChen12/system-validation-toolkit/tree/main/tmux_notes): Terminal workflow to keep validation tasks persistent across SSH sessions.  
 - [**troubleshooting**](https://github.com/YenChen12/system-validation-toolkit/tree/main/troubleshooting): Collect and document known technical issues.  
 - [**make_practice**](https://github.com/YenChen12/system-validation-toolkit/tree/main/make_practice): Exploring Makefile for organizing linux commands and automation workflows.  
+- [**shell_practice**](https://github.com/YenChen12/system-validation-toolkit/tree/main/shell_practice): Contains Shell scripting practices focused on linux system log processing and automation.  
 
 ## 🎯 Remote Environment Initialization
 #### Before deploying any toolkit modules, ensure your remote environment matches the specifications below and has been successfully initialized.
