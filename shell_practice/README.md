@@ -2,11 +2,16 @@
 
 ### <u>Module Overview</u>
 shell_practice/  
-    ├── [scripts/](./scripts/)    # Shell scripts  
-    ├── [logs/](./logs/)       # Input log files   
-    └── [results/](./results/)    # Script output results  
- 
+├── [scripts/](./scripts/)    # Shell scripts  
+├── [logs/](./logs/)       # Input log files   
+└── [results/](./results/)    # Script output results  
 
+---
+### System Environment
+- Operating System: Windows 10  
+- Connection: SSH via Windows Terminal  
+
+---
 ### Practice 1 - Split system log
 Continue the previous [`make_practice`](../make_practice/) and split the generated system log into individual command logs.
 - Test script: [split_log.sh](scripts/split_log.sh)
